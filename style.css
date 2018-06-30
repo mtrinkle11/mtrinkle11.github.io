@@ -1,0 +1,72 @@
+.navbar {
+    overflow: scroll;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parallax1 {
+    /* insert pic link here */
+    /* Photo by Ash Edmonds on Unsplash */
+    background-image: url("laptop.jpg");
+    /* set manual height for space where pic will be seen */
+    opacity: 0.5;
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myPic {
+    width: 300px;
+    height: 400px;
+}
+
+.parallax2 {
+    /* insert pic link here */
+    background-image: url("portfolios.jpg");
+    /* set manual height for space where pic will be seen */
+    height: 400px;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* insert pic link here */
+    background-image: url("contact.jpg");
+
+/* set manual height for space where pic will be seen */
+    height: 400px;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.stickyFooter {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+}
+
+p {
+    text-align: left;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
