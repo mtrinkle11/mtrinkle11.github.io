@@ -12,7 +12,7 @@ body {
 .parallax1 {
     /* insert pic link here */
     /* Photo by Ash Edmonds on Unsplash */
-    background-image: url("laptop.jpg");
+    background-image: url("laptopPS.jpg");
     /* set manual height for space where pic will be seen */
     opacity: 0.5;
     height: 800px;
@@ -30,7 +30,7 @@ body {
 
 .parallax2 {
     /* insert pic link here */
-    background-image: url("portfolios.jpg");
+    background-image: url("portfoliosPS.jpg");
     /* set manual height for space where pic will be seen */
     height: 400px;
     opacity: 0.5;
@@ -42,7 +42,7 @@ body {
 
 .parallax3 {
     /* insert pic link here */
-    background-image: url("contact.jpg");
+    background-image: url("contactPS.jpg");
 
 /* set manual height for space where pic will be seen */
     height: 400px;
