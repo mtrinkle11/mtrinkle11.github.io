@@ -27,6 +27,7 @@ body {
 .myPic {
     width: 300px;
     height: 400px;
+    margin-left: 15%;
 }
 
 .parallax2 {
@@ -63,6 +64,11 @@ body {
 
 p {
     text-align: left;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
