@@ -22,7 +22,8 @@
 
 <!--  add links to portfolio -->
 <!--  link message to email -->
-<!-- set size of columns for sm -->
+<!-- set size of columns for sm (not accepting bootstrap column size inputs)-->
+<!-- add resume and button to download -->
 
 <body>
     <!--Main Navigation-->
@@ -71,12 +72,12 @@
             </p>
 
             <div class="row d-flex justify-content-around">
-                <div class="col-5">
+                <div class="col-5 col-md-5 col-sm-12">
                     <h4 class="text-secondary  text-center">Michael Trinkle</h4>
                     <img class="myPic" src="myPic.jpg" alt="">
                 </div>
 
-                <div class="col-6 mr-5">
+                <div class="col-6 col-md-5 col-sm-12 mr-5">
                     <p class="mr-3 text-secondary">I have lived a life of service, always looking to to find ways to make things better. In the work environment,
                         I contribute to the top and bottom line. I am presently a 7th grade math teacher, while being a freelance
                         full stack developer. Working with middle schoolers in one of the worst poverty stricken districts
@@ -105,23 +106,20 @@
                     <img class="icon" src="css3.png" alt="">
                     <img class="icon" src="MySQL.png" alt="">
                     <img class="icon" src="git.png" alt="">
+                    <img class="icon" src="react.png" alt="">
+                    <img class="icon" src="angular.png" alt="">
                 </div>
             </div>
             <div class="text-secondary p-5">
                 <h5 class="p-2 text-center">Technologies:</h5>
                 <div class="d-flex justify-content-around mb-5">
-                    <img class="icon" src="angular.png" alt="">
                     <img class="icon" src="VScode.png" alt="">
                     <img class="icon" src="gitkraken-icon.png" alt="">
                     <img class="icon" src="github.png" alt="">
                     <img class="icon" src="bootstrap.png" alt="">
-                    <img class="icon" src="react.png" alt="">
                     <img class="icon" src="sqlectron.png" alt="">
                     <img class="icon" src="wordpress.png" alt="">
                     <img class="icon" src="photoshop.png" alt="">
-
-
-
                 </div>
             </div>
         </div>
@@ -134,8 +132,8 @@
 
             <!-- bootstrap cards here with links to github -->
             <p class="text-secondary text-center mb-5">Here is some of my latest work</p>
-            <div class="card-deck">
-                <div class="card">
+            <div class="row card-deck">
+                <div class="col card col-lg-6 col-md-8 col-sm-12">
                     <img class="card-img-top" src="todoApp.png" alt="todoApp.png">
                     <div class="card-body">
                         <h5 class="card-title">Todo App</h5>
@@ -146,24 +144,24 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="quizApp.png" alt="quizApp.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Quiz App</h5>
+                        <p class="card-text">Worked in a team to develop a quiz app with multiple functionality, including CRUD.  Front end design of homepage, color scheme, layout of pages.  Some backend with functions to tally scores, countdown timer, advancing from page to page.  Utilizing complicate and innovative logic to produce a lot of options for a quiz app using VS Code, GitKraken, GitHub, HTML, CSS, JavaScript, Angular 2, and Bootstrap.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://rjpena88.github.io/quizApp/" class="btn btn-primary">Open App</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="eCommerce.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
-                            card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title">eCommerce Site</h5>
+                        <p class="card-text">Collaborated with a team to make the front end of a mock up eCommerce site to sell specialty candles using HTML, CSS, JS with Git and Slack for workflow.
+                        </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://github.com/jgomez8558/eCommerce_Company" class="btn btn-primary">Open Git</a>
                     </div>
                 </div>
             </div>
@@ -177,13 +175,13 @@
             <h2 class="text-secondary pt-5 mt-5 text-center">FIND ME HERE</h2>
             <h5 class="text-secondary text-center mb-5">Would love to hear from you!</h5>
             <div class="row justify-content-around">
-                <div class="col-4">
+                <div class="col col-md-5 col-sm-12 m-2">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573989.4474938703!2d-99.71143178287853!3d28.98073052776902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8665a2223e8635c3%3A0x89ef181150dac144!2sEdinburg%2C+TX!5e0!3m2!1sen!2sus!4v1530396486356"
                         width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
 
                 <!-- contact info -->
-                <div class="col-6 text-secondary pb-5">
+                <div class="col col-md-6 col-sm-12 text-secondary pb-5">
                     <h4>
                         <i class="pr-2 fas fa-map-marker-alt"></i> Edinburg, Texas
                     </h4>
